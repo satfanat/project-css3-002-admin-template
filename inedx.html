@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <title>Admin Page</title>
 </head>
+
 <body>
-    
+    <div class="grid-container">
+        <header class="header--dark">
+            <h3 class="header__title">
+                Admin Page
+            </h3>
+            <div class="header__search">
+                <label for="gsearch">Search Google:</label>
+                <input class="search__input" type="search" id="gsearch" name="gsearch">
+                <button class="search__btn"></button>
+            </div>
+        </header>
+        <main>
+            <aside>
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>CORE</li>
+                        <li>Dashboard</li>
+                        <li>INTERFACE</li>
+                        <li>Layouts</li>
+                        <li>Pages</li>
+                        <li>ADDONS</li>
+                        <li>Charts</li>
+                        <li>Tables</li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <h1 class="dashboard">Dashboard</h1>
+                <div class="main__cards">
+                    <div class="main__card main__card--blue">
+                        <div class="card__top">Primary card</div>
+                        <div class="card__bottom">View Details</div>
+                    </div>
+                    <div class="main__card main__card--yellow">
+                        <div class="card__top">Warning Card</div>
+                        <div class="card__bottom">View Details</div>
+                    </div>
+                    <div class="main__card main__card--green">
+                        <div class="card__top">Success Card</div>
+                        <div class="card__bottom">View Details</div>
+                    </div>
+                    <div class="main__card main__card--red">
+                        <div class="card__top">Danger Card</div>
+                        <div class="card__bottom">View Details</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
 </body>
+
 </html>
