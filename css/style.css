@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 1,25em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header'
+                        'nav section section section section';
+    grid-gap: 10px;
+}
+
+.header--dark {
+    grid-area: header;  
+    background-color: rgb(51, 57, 64);
+    color: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+.header__title {
+    display: inline;
+    }
+
+.header__search {
+    display: inline;
+    float: right;
+}
+
+
+.aside {
+    grid-area: nav;   
+}
+
+.content {
+    grid-area: section; 
+}
