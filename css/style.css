@@ -137,8 +137,7 @@ flex-wrap: wrap;
     display: flex;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-}
+   }
 
 .card__top {
     padding-top: 2rem;
@@ -151,27 +150,22 @@ flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem; 
-    border-top: solid 0.2px;
+    border-top: solid 0.1px rgb(85, 82, 82);
     font-size: 1.3rem;
 }
-
-
 
 .main__card--blue {
     background-color: rgb(0, 123, 255);
     border-radius: 0.25rem;
     flex: 22%;
     padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
   }
 
-
-  .main__card main__card--blue card__top: {
-
-}
-
-.main__card main__card--blue card__bottom: {
+  .main__card--blue:hover {
+    background-color: rgb(192, 188, 184);
+    }
     
-}
 
 .main__card--yellow {
     background-color: rgb(255, 193, 7);
@@ -179,18 +173,12 @@ flex-wrap: wrap;
     flex: 22%;
     padding: 0.5rem;
     margin-left: 2rem;
+    transition: all 0.3s ease-in-out;
 }
 
-
-.main__card main__card--yellow card__top: {
-    
-}
-
-.main__card main__card--yellow card__bottom: {
-    
-}
-
-
+.main__card--yellow:hover {
+    background-color: rgb(192, 188, 184);
+    }
 
 .main__card--green {
     background-color: rgb(40, 167, 69);
@@ -199,31 +187,21 @@ flex-wrap: wrap;
     padding: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
-  
-}
-
-.main__card main__card--green card__top: {
-
-}
-
-.main__card main__card--green card__bottom: {
-    
+    transition: all 0.3s ease-in-out;
 }
 
 
+.main__card--green:hover {
+    background-color: rgb(192, 188, 184);
+    }
 
 .main__card--red {
     background-color: rgb(220, 53, 69);
     border-radius: 0.25rem;
     flex: 22%;
     padding: 0.5rem;
- 
+    transition: all 0.3s ease-in-out;
 }
-
-.main__card main__card--red card__top: {
-
-}
-
-.main__card main__card--red card__bottom: {
-    
-}
+.main__card--red:hover {
+    background-color: rgb(192, 188, 184);
+    }
